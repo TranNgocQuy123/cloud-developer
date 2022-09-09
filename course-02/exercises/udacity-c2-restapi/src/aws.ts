@@ -1,5 +1,7 @@
 import AWS = require('aws-sdk');
+import { create } from 'domain';
 import { config } from './config/config';
+import { FeedItem } from './controllers/v0/feed/models/FeedItem';
 
 const c = config.dev;
 
